@@ -5,6 +5,9 @@ def create_movie(org_name, trans_name, year):
         "trans_name": trans_name,
         "year": year
     }
+#remove function
+def remove_movie(m_list, movie):
+    m_list.remove(movie)
 
 # display a movie
 def display_movie(m):
